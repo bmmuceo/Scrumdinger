@@ -6,13 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E095A2352D929C4B00C46A59 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = E095A2342D929C4B00C46A59 /* ThemeKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E095A2212D92887B00C46A59 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E095A23E2D92A5E200C46A59 /* Exceptions for "Scrumdinger" folder in "Scrumdinger" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E095A2202D92887B00C46A59 /* Scrumdinger */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E095A2232D92887B00C46A59 /* Scrumdinger */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E095A23E2D92A5E200C46A59 /* Exceptions for "Scrumdinger" folder in "Scrumdinger" target */,
+			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
 		};
@@ -23,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E095A2352D929C4B00C46A59 /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			);
 			name = Scrumdinger;
 			packageProductDependencies = (
+				E095A2342D929C4B00C46A59 /* ThemeKit */,
 			);
 			productName = Scrumdinger;
 			productReference = E095A2212D92887B00C46A59 /* Scrumdinger.app */;
@@ -94,6 +113,9 @@
 			);
 			mainGroup = E095A2182D92887B00C46A59;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E095A2332D929C4B00C46A59 /* XCLocalSwiftPackageReference "../ThemeKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E095A2222D92887B00C46A59 /* Products */;
 			projectDirPath = "";
@@ -250,6 +272,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scrumdinger/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -287,6 +310,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scrumdinger/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -335,6 +359,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E095A2332D929C4B00C46A59 /* XCLocalSwiftPackageReference "../ThemeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ThemeKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E095A2342D929C4B00C46A59 /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E095A2192D92887B00C46A59 /* Project object */;
 }

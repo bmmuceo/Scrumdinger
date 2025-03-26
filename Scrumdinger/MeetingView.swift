@@ -48,4 +48,5 @@ struct MeetingView: View {
 
 #Preview {
     MeetingView()
+        .preferredColorScheme(.dark)
 }
