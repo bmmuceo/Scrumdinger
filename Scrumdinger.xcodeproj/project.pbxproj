@@ -50,8 +50,8 @@
 		E095A2182D92887B00C46A59 = {
 			isa = PBXGroup;
 			children = (
-				E095A2232D92887B00C46A59 /* Scrumdinger */,
 				E095A2222D92887B00C46A59 /* Products */,
+				E095A2232D92887B00C46A59 /* Scrumdinger */,
 			);
 			sourceTree = "<group>";
 		};
